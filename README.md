@@ -16,7 +16,7 @@ The BDE utilizes a data-driven approach, incorporating QoS feedback to dynamical
 
 ## Components
 
-### 1. BDE Implementation
+### 1. BDE Implementation (`main.py`)
    - Algorithms for bandwidth allocation based on reinforcement learning.
    - Transition matrix estimation and value iteration.
    - Integration with QoS feedback mechanisms.
@@ -34,7 +34,7 @@ The Amarisoft testbed consists of the AMARI Callbox Ultimate and the AMARI UE Si
 
 To utilize the BDE and generate test scenarios:
 1. Configure scenarios using `amarify.py`.
-2. Execute the BDE implementation `bandwidth-bandits.py` on the Ubuntu PC connected to the Amarisoft testbed.
+2. Execute the BDE implementation `main.py` on the Ubuntu PC connected to the Amarisoft testbed.
 
 ## Citation
 
