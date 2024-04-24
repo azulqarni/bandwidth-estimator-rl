@@ -3,7 +3,7 @@ import sys
 import json
 import heapq
 import random
-from .util.parameters import round_interval
+from util.parameters import round_interval
 import numpy as np
 from datetime import datetime
 from itertools import groupby
@@ -11,7 +11,6 @@ import matplotlib.pyplot as plt
 
 udp_payload = 200
 rtp_payload = 200
-
 
 def power_event(switch, time):
     # Template of instantaneous power event
