@@ -1,4 +1,7 @@
 import sys
+import time
+import os.path
+
 from util.logflatten import remove_all_files_from_directory
 from util.ucb1 import *
 from util.RL import *
@@ -6,8 +9,6 @@ from util.liveness import ws_set_bandwidth, calculate_context
 from util.calculate_reward import *
 from datetime import datetime
 from collections import defaultdict
-import time
-import os.path
 
 now = datetime.now()
 timestring = now.strftime("at %H:%M on %m/%d")
