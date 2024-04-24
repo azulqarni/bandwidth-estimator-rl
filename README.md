@@ -31,12 +31,13 @@ The BDE utilizes a data-driven approach, incorporating QoS feedback to dynamical
 The Amarisoft testbed consists of the AMARI Callbox Ultimate and the AMARI UE Simbox, facilitating over-the-air LTE communication with SDRs. The BDE implementation runs on an Ubuntu PC connected to the testbed, enabling configuration, traffic monitoring, and scenario execution via SSH commands.
 
 ## Prerequisites
-1. Install the WebSocket client and server implementation for Node.js: `npm install nodejs-websocket`.
-2. Install python dependencies: `pip install matplotlib numpy paramiko`.
+1. Install Python 3 and Node.js (developed with Python 3.10.6 and Node.js v12.22.9)
+2. Install the WebSocket client and server implementation for Node.js: `npm install nodejs-websocket`.
+3. Install python dependencies: `pip install matplotlib numpy paramiko`.
 
 ## Usage
 
-To utilize the BDE and generate test scenarios (developed with Python 3.10.6 and Node.js v12.22.9):
+To utilize the BDE and generate test scenarios:
 1. Configure scenarios using `python3 amarify.py`. This will produce the following:
    - Configuration file `ue_db-test.cfg` to be placed under `~/mme/config` in the AMARI Callbox node.
    - Configuration file `ue-test.cfg` to be placed under `~/ue/config` in the AMARI UE Simbox node.
