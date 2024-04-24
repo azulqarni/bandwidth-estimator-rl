@@ -34,8 +34,8 @@ The Amarisoft testbed consists of the AMARI Callbox Ultimate and the AMARI UE Si
 
 To utilize the BDE and generate test scenarios:
 1. Configure scenarios using `python3 amarify.py`. This will produce the following:
-   - Configuration file `ue_db-test.cfg` to be pointed by `~/mme/config` in the AMARI Callbox unit.
-   - Configuration file `ue-test.cfg` to be pointed by `~/ue/config` in the AMARI UE Simbox unit.
+   - Configuration file `ue_db-test.cfg` to be placed under `~/mme/config` in the AMARI Callbox unit.
+   - Configuration file `ue-test.cfg` to be placed under `~/ue/config` in the AMARI UE Simbox unit.
    - A plot `user_activity.pdf` visualizing the number of active users per time unit.
 2. Execute the BDE implementation `python3 main.py` on the computing node (e.g., Ubuntu PC) connected to the Amarisoft testbed, which includes the main simulation loop.
    - This produces the bandwidth estimate for the network slice, which is updated using the Amarisoft API through `./util/liveness.py`.
