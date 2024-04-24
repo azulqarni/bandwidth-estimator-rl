@@ -1,5 +1,5 @@
 # lteue version 2021-09-18, gcc 9.2.1
-# Licensed to 'University of Maryland' [20ca485df52e22d37775404a310d61fc1fddfca328e469eb4d]
+# Licensed to 'University of Maryland' [xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx]
 # Log file format:
 # time layer dir ue_id {cell_id rnti sfn channel:} message
 # SMP DRBs=1 RF0=2/1
