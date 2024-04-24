@@ -32,7 +32,7 @@ The Amarisoft testbed consists of the AMARI Callbox Ultimate and the AMARI UE Si
 
 ## Usage
 
-To utilize the BDE and generate test scenarios:
+To utilize the BDE and generate test scenarios (developed with Python 3.10.6 and Node.js v12.22.9):
 1. Configure scenarios using `python3 amarify.py`. This will produce the following:
    - Configuration file `ue_db-test.cfg` to be placed under `~/mme/config` in the AMARI Callbox node.
    - Configuration file `ue-test.cfg` to be placed under `~/ue/config` in the AMARI UE Simbox node.
