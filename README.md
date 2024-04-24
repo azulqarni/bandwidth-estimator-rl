@@ -40,7 +40,7 @@ To utilize the BDE and generate test scenarios (developed with Python 3.10.6 and
 2. Execute the BDE implementation `python3 main.py` on the computing node (e.g., Ubuntu PC) connected to the Amarisoft testbed, which includes the main simulation loop.
    - This produces the bandwidth estimate for the network slice, which is updated using the Amarisoft API through `./util/liveness.py`.
       - Valid PRB values are of the form 2<sup>n<sub>1</sub></sup> · 3<sup>n<sub>2</sub></sup> · 5<sup>n<sub>3</sub></sup>, where n<sub>1</sub>, n<sub>2</sub>, n<sub>3</sub> ∈ ℕ.
-   - Simulation parameters including idle time between selecting arm and estimating reward are set in `./utils/parameters.py`.
+   - Simulation parameters including idle time between selecting arm and estimating reward are set in `./util/parameters.py`.
    - Networking parameters for accessing the remote log files from the two Amarisoft nodes are defined in `remote_params()` in `./util/logflatten.py`. The nodes are accessed in non-interactive fashion using SSH key-based authentication.
 
 ## Citation
