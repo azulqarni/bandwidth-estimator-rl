@@ -30,6 +30,10 @@ The BDE utilizes a data-driven approach, incorporating QoS feedback to dynamical
 
 The Amarisoft testbed consists of the AMARI Callbox Ultimate and the AMARI UE Simbox, facilitating over-the-air LTE communication with SDRs. The BDE implementation runs on an Ubuntu PC connected to the testbed, enabling configuration, traffic monitoring, and scenario execution via SSH commands.
 
+## Prerequisites
+1. Install the WebSocket client and server implementation for Node.js: `npm install nodejs-websocket`.
+2. Install python dependencies: `pip install matplotlib numpy paramiko`.
+
 ## Usage
 
 To utilize the BDE and generate test scenarios (developed with Python 3.10.6 and Node.js v12.22.9):
@@ -41,7 +45,7 @@ To utilize the BDE and generate test scenarios (developed with Python 3.10.6 and
    - This produces the bandwidth estimate for the network slice, which is updated using the Amarisoft API through `./util/liveness.py`.
       - Valid PRB values are of the form 2<sup>n<sub>1</sub></sup> · 3<sup>n<sub>2</sub></sup> · 5<sup>n<sub>3</sub></sup>, where n<sub>1</sub>, n<sub>2</sub>, n<sub>3</sub> ∈ ℕ.
    - Simulation parameters including idle time between selecting arm and estimating reward are set in `./util/parameters.py`.
-   - Networking parameters for accessing the remote log files from the two Amarisoft nodes are defined in `remote_params()` in `./util/logflatten.py`. The nodes are accessed in non-interactive fashion using SSH key-based authentication.
+   - IMPORTANT: Networking parameters for accessing the remote log files from the two Amarisoft nodes are defined in `remote_params()` in `./util/logflatten.py`. The nodes are accessed in non-interactive fashion using SSH key-based authentication.
 
 ## Citation
 
