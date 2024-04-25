@@ -7,10 +7,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from datetime import datetime
 from itertools import groupby
-from util.parameters import round_interval
-
-udp_payload = 200
-rtp_payload = 200
+from util.parameters import round_interval, udp_payload, rtp_payload
 
 def power_event(switch, time):
     # Template of instantaneous power event
