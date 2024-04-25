@@ -3,15 +3,11 @@ import time
 import numpy as np
 import paramiko
 from statistics import mean
+from .liveness import ue_ip_addresses
 from .logflatten import remote_params
 from .parameters import *
-from .liveness import ue_ip_addresses
-
-sys.path.append('..')
-from amarify import udp_payload, rtp_payload
 
 estimated_dl_delay = 15  # in ms
-
 
 def log_packet_delays(ips):
     packet_size = udp_payload
