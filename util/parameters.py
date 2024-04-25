@@ -2,6 +2,11 @@
 # May need a higher recursion limit for BST based e2e delay calculation
 # sys.setrecursionlimit(10000)
 
+# UDP packet payload (used by scenario generation)
+udp_payload = 200
+
+# RTP packet payload (used by scenario generation)
+rtp_payload = 200
 
 def unindexify_bandwidth(arm):
     bandwidth = PRBs[int(arm)]
