@@ -47,7 +47,7 @@ To utilize the BDE and generate test scenarios:
       - Valid PRB values are of the form 2<sup>n<sub>1</sub></sup> · 3<sup>n<sub>2</sub></sup> · 5<sup>n<sub>3</sub></sup>, where n<sub>1</sub>, n<sub>2</sub>, n<sub>3</sub> ∈ ℕ.
    - Simulation parameters including idle time between selecting arm and estimating reward are set in `util/parameters.py`.
    - IMPORTANT: Networking parameters for accessing the remote log files from the two Amarisoft nodes are defined in `remote_params()` in `util/logflatten.py` and `util/parameters.py`. The nodes are accessed in non-interactive fashion using SSH key-based authentication.
-3. To optionally run a script as part of the package name, use `python3 -m util.liveness`.
+3. To optionally run a script as part of the util package, use e.g., `python3 -m util.liveness`.
 
 ## Citation
 
