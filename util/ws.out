@@ -1,0 +1,363 @@
+WebSocket remote API tool version 2021-09-18, Copyright (C) 2012-2021 Amarisoft
+[0.004] ### Connected to 10.229.43.221:9002
+[0.004] ### Ready: name=UE, type=UE, version=2021-09-18
+[0.005] <== Send message ue_get id#1
+[0.017] ==> Message received
+{
+    "message": "ue_get",
+    "ue_list": [
+        {
+            "imsi": "001010123456789",
+            "ue_id": 1,
+            "ue_sub_id": 1,
+            "category": 4,
+            "timing_advance": 2,
+            "rnti": 3363,
+            "power_on": false,
+            "dl_bitrate": 0,
+            "ul_bitrate": 0,
+            "dl_rx_count": 0,
+            "dl_retx_count": 0,
+            "dl_err_count": 0,
+            "ul_tx_count": 0,
+            "ul_retx_count": 0,
+            "rrc_state": "connected",
+            "position": [
+                -295.8729248046875,
+                -98.40861511230467,
+                0
+            ],
+            "cells": [
+                {
+                    "cqi": 15,
+                    "ri": 1,
+                    "path_loss": 106.20616912841795,
+                    "index": 0,
+                    "pci": 1,
+                    "rsrp": -97.07022857666016,
+                    "rsrq": -3.6287841796875,
+                    "snr": 35.16938018798828
+                }
+            ],
+            "emm_state": "registered"
+        },
+        {
+            "imsi": "001010123456789",
+            "ue_id": 2,
+            "ue_sub_id": 2,
+            "category": 4,
+            "timing_advance": 2,
+            "rnti": 3366,
+            "power_on": false,
+            "dl_bitrate": 0,
+            "ul_bitrate": 0,
+            "dl_rx_count": 0,
+            "dl_retx_count": 0,
+            "dl_err_count": 0,
+            "ul_tx_count": 0,
+            "ul_retx_count": 0,
+            "rrc_state": "connected",
+            "position": [
+                52.23736190795899,
+                317.8424987792969,
+                0
+            ],
+            "cells": [
+                {
+                    "cqi": 15,
+                    "ri": 1,
+                    "path_loss": 106.5629196166992,
+                    "index": 0,
+                    "pci": 1,
+                    "rsrp": -97.60077667236327,
+                    "rsrq": -3.6287841796875,
+                    "snr": 34.638832092285156
+                }
+            ],
+            "emm_state": "registered"
+        },
+        {
+            "imsi": "001010123456789",
+            "ue_id": 3,
+            "ue_sub_id": 3,
+            "category": 4,
+            "timing_advance": 2,
+            "rnti": 3365,
+            "power_on": false,
+            "dl_bitrate": 0,
+            "ul_bitrate": 0,
+            "dl_rx_count": 0,
+            "dl_retx_count": 0,
+            "dl_err_count": 0,
+            "ul_tx_count": 0,
+            "ul_retx_count": 0,
+            "rrc_state": "disconnected",
+            "position": [
+                -76.82781982421875,
+                459.6574401855468,
+                0
+            ],
+            "cells": [
+                {
+                    "cqi": 15,
+                    "ri": 1,
+                    "path_loss": 112.57899475097658,
+                    "index": 0,
+                    "pci": 1,
+                    "rsrp": -103.63249206542967,
+                    "rsrq": -3.6287841796875,
+                    "snr": 28.60711669921875
+                }
+            ],
+            "emm_state": "power off"
+        },
+        {
+            "imsi": "001010123456789",
+            "ue_id": 4,
+            "ue_sub_id": 4,
+            "category": 4,
+            "timing_advance": 2,
+            "rnti": 3368,
+            "power_on": false,
+            "dl_bitrate": 0,
+            "ul_bitrate": 0,
+            "dl_rx_count": 0,
+            "dl_retx_count": 0,
+            "dl_err_count": 0,
+            "ul_tx_count": 0,
+            "ul_retx_count": 0,
+            "rrc_state": "disconnected",
+            "position": [
+                -314.6014099121094,
+                -217.2660369873047,
+                0
+            ],
+            "cells": [
+                {
+                    "cqi": 15,
+                    "ri": 1,
+                    "path_loss": 109.18263244628905,
+                    "index": 0,
+                    "pci": 1,
+                    "rsrp": -100.39981079101562,
+                    "rsrq": -3.6287841796875,
+                    "snr": 31.839797973632812
+                }
+            ],
+            "emm_state": "power off"
+        },
+        {
+            "imsi": "001010123456789",
+            "ue_id": 5,
+            "ue_sub_id": 5,
+            "category": 4,
+            "timing_advance": 2,
+            "rnti": 3367,
+            "power_on": false,
+            "dl_bitrate": 0,
+            "ul_bitrate": 0,
+            "dl_rx_count": 0,
+            "dl_retx_count": 0,
+            "dl_err_count": 0,
+            "ul_tx_count": 0,
+            "ul_retx_count": 0,
+            "rrc_state": "disconnected",
+            "position": [
+                -411.2763061523437,
+                99.83087158203125,
+                0
+            ],
+            "cells": [
+                {
+                    "cqi": 15,
+                    "ri": 1,
+                    "path_loss": 111.26390075683594,
+                    "index": 0,
+                    "pci": 1,
+                    "rsrp": -102.05885314941405,
+                    "rsrq": -3.6287841796875,
+                    "snr": 30.180755615234375
+                }
+            ],
+            "emm_state": "power off"
+        },
+        {
+            "imsi": "001010123456789",
+            "ue_id": 6,
+            "ue_sub_id": 6,
+            "category": 4,
+            "timing_advance": 2,
+            "rnti": 3361,
+            "power_on": false,
+            "dl_bitrate": 0,
+            "ul_bitrate": 0,
+            "dl_rx_count": 0,
+            "dl_retx_count": 0,
+            "dl_err_count": 0,
+            "ul_tx_count": 0,
+            "ul_retx_count": 0,
+            "rrc_state": "disconnected",
+            "position": [
+                -99.92610168457031,
+                92.6436767578125,
+                0
+            ],
+            "cells": [
+                {
+                    "cqi": 15,
+                    "ri": 1,
+                    "path_loss": 92.81591796875,
+                    "index": 0,
+                    "pci": 1,
+                    "rsrp": -83.55281829833984,
+                    "rsrq": -3.6287841796875,
+                    "snr": 48.686790466308594
+                }
+            ],
+            "emm_state": "power off"
+        },
+        {
+            "imsi": "001010123456789",
+            "ue_id": 7,
+            "ue_sub_id": 7,
+            "category": 4,
+            "timing_advance": 2,
+            "rnti": 3364,
+            "power_on": false,
+            "dl_bitrate": 0,
+            "ul_bitrate": 0,
+            "dl_rx_count": 0,
+            "dl_retx_count": 0,
+            "dl_err_count": 0,
+            "ul_tx_count": 0,
+            "ul_retx_count": 0,
+            "rrc_state": "disconnected",
+            "position": [
+                -99.24725341796875,
+                359.2395324707031,
+                0
+            ],
+            "cells": [
+                {
+                    "cqi": 15,
+                    "ri": 1,
+                    "path_loss": 109.09664916992188,
+                    "index": 0,
+                    "pci": 1,
+                    "rsrp": -99.98297882080077,
+                    "rsrq": -3.6287841796875,
+                    "snr": 32.256629943847656
+                }
+            ],
+            "emm_state": "power off"
+        },
+        {
+            "imsi": "001010123456789",
+            "ue_id": 8,
+            "ue_sub_id": 8,
+            "category": 4,
+            "timing_advance": 2,
+            "rnti": 3362,
+            "power_on": false,
+            "dl_bitrate": 0,
+            "ul_bitrate": 0,
+            "dl_rx_count": 0,
+            "dl_retx_count": 0,
+            "dl_err_count": 0,
+            "ul_tx_count": 0,
+            "ul_retx_count": 0,
+            "rrc_state": "disconnected",
+            "position": [
+                333.1678466796875,
+                -325.07098388671875,
+                0
+            ],
+            "cells": [
+                {
+                    "cqi": 15,
+                    "ri": 1,
+                    "path_loss": 112.49372100830077,
+                    "index": 0,
+                    "pci": 1,
+                    "rsrp": -103.61309051513672,
+                    "rsrq": -3.6287841796875,
+                    "snr": 28.62651824951172
+                }
+            ],
+            "emm_state": "power off"
+        },
+        {
+            "imsi": "001010123456789",
+            "ue_id": 9,
+            "ue_sub_id": 9,
+            "category": 4,
+            "timing_advance": 2,
+            "rnti": 3369,
+            "power_on": false,
+            "dl_bitrate": 0,
+            "ul_bitrate": 0,
+            "dl_rx_count": 0,
+            "dl_retx_count": 0,
+            "dl_err_count": 0,
+            "ul_tx_count": 0,
+            "ul_retx_count": 0,
+            "rrc_state": "disconnected",
+            "position": [
+                235.01150512695315,
+                416.9434204101562,
+                0
+            ],
+            "cells": [
+                {
+                    "cqi": 15,
+                    "ri": 1,
+                    "path_loss": 113.13090515136719,
+                    "index": 0,
+                    "pci": 1,
+                    "rsrp": -104.0674819946289,
+                    "rsrq": -3.6287841796875,
+                    "snr": 28.17212677001953
+                }
+            ],
+            "emm_state": "power off"
+        },
+        {
+            "imsi": "001010123456789",
+            "ue_id": 10,
+            "ue_sub_id": 10,
+            "category": 4,
+            "timing_advance": 2,
+            "rnti": 3370,
+            "power_on": false,
+            "dl_bitrate": 0,
+            "ul_bitrate": 0,
+            "dl_rx_count": 0,
+            "dl_retx_count": 0,
+            "dl_err_count": 0,
+            "ul_tx_count": 0,
+            "ul_retx_count": 0,
+            "rrc_state": "disconnected",
+            "position": [
+                302.31732177734375,
+                -178.64793395996094,
+                0
+            ],
+            "cells": [
+                {
+                    "cqi": 15,
+                    "ri": 1,
+                    "path_loss": 107.91239929199219,
+                    "index": 0,
+                    "pci": 1,
+                    "rsrp": -99.01082611083984,
+                    "rsrq": -3.6287841796875,
+                    "snr": 33.228782653808594
+                }
+            ],
+            "emm_state": "power off"
+        }
+    ],
+    "message_id": "id#1",
+    "time": 3707.314
+}
+
